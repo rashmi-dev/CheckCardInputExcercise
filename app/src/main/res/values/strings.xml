@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Credit Card Input Exercise</string>
+    <string name="submit_payment">SUBMIT PAYMENT</string>
+    <string name="first_name">First name</string>
+    <string name="security_code">Security code</string>
+    <string name="mm_yy">MM/YY</string>
+    <string name="card_number">Card number</string>
+    <string name="last_name">Last name</string>
+</resources>
