@@ -158,7 +158,6 @@ public class ExampleInstrumentedTest {
         onView(ViewMatchers.withId(R.id.last_name_edit))
                 .perform(typeText(lastNameToBeTyped), closeSoftKeyboard());
         onView(ViewMatchers.withId(R.id.submit)).perform(click());
-        //onView(ViewMatchers.withId(R.id.card_number)).check(matches(withText("Invalid number")));
         onView(ViewMatchers.withId(R.id.card_number)).check(matches(hasTextInputLayoutErrorText("Invalid number")));
     }
 
@@ -176,8 +175,7 @@ public class ExampleInstrumentedTest {
         onView(ViewMatchers.withId(R.id.last_name_edit))
                 .perform(typeText(lastNameToBeTyped), closeSoftKeyboard());
         onView(ViewMatchers.withId(R.id.submit)).perform(click());
-        //onView(ViewMatchers.withId(R.id.card_number)).check(matches(withText("Invalid number")));
-        onView(ViewMatchers.withId(R.id.card_number)).check(matches(hasTextInputLayoutErrorText("Card Expired")));
+        onView(ViewMatchers.withId(R.id.mm_yy)).check(matches(hasTextInputLayoutErrorText("Card Expired")));
     }
 
     @Test
@@ -194,8 +192,7 @@ public class ExampleInstrumentedTest {
         onView(ViewMatchers.withId(R.id.last_name_edit))
                 .perform(typeText(lastNameToBeTyped), closeSoftKeyboard());
         onView(ViewMatchers.withId(R.id.submit)).perform(click());
-        //onView(ViewMatchers.withId(R.id.card_number)).check(matches(withText("Invalid number")));
-        onView(ViewMatchers.withId(R.id.card_number)).check(matches(hasTextInputLayoutErrorText("Invalid length")));
+        onView(ViewMatchers.withId(R.id.security_code)).check(matches(hasTextInputLayoutErrorText("Invalid length")));
     }
 
     @Test
@@ -212,8 +209,7 @@ public class ExampleInstrumentedTest {
         onView(ViewMatchers.withId(R.id.last_name_edit))
                 .perform(typeText(lastNameToBeTyped), closeSoftKeyboard());
         onView(ViewMatchers.withId(R.id.submit)).perform(click());
-        //onView(ViewMatchers.withId(R.id.card_number)).check(matches(withText("Invalid number")));
-        onView(ViewMatchers.withId(R.id.card_number)).check(matches(hasTextInputLayoutErrorText("Invalid name")));
+        onView(ViewMatchers.withId(R.id.first_name)).check(matches(hasTextInputLayoutErrorText("Invalid name")));
     }
 
     @Test
@@ -230,8 +226,7 @@ public class ExampleInstrumentedTest {
         onView(ViewMatchers.withId(R.id.last_name_edit))
                 .perform(typeText(lastNameToBeTypedIn), closeSoftKeyboard());
         onView(ViewMatchers.withId(R.id.submit)).perform(click());
-        //onView(ViewMatchers.withId(R.id.card_number)).check(matches(withText("Invalid number")));
-        onView(ViewMatchers.withId(R.id.card_number)).check(matches(hasTextInputLayoutErrorText("Field Empty")));
+        onView(ViewMatchers.withId(R.id.last_name)).check(matches(hasTextInputLayoutErrorText("Field Empty")));
     }
 
 }
