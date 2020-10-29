@@ -18,3 +18,8 @@ The Android "screen" that will allow a user to enter and submit the following da
  
 ## Android App Images
 [Screenshots of App](https://drive.google.com/drive/folders/1rSLl-L1BJuz5gc6RwdKOqAMh0tfn0Wqj?usp=sharing)
+
+ 
+## Android App APK
+[Google drive link](https://drive.google.com/file/d/1MnQQzZLS4_hssLAOgGzVf0TQRdf4ZFlK/view)
+The apk can also be found at https://github.com/rashmi-dev/CheckCardInputExcercise/tree/main/apk
