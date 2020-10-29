@@ -21,5 +21,5 @@ The Android "screen" that will allow a user to enter and submit the following da
 
  
 ## Android App APK
-[Google drive link](https://drive.google.com/file/d/1MnQQzZLS4_hssLAOgGzVf0TQRdf4ZFlK/view)
-The apk can also be found at https://github.com/rashmi-dev/CheckCardInputExcercise/tree/main/apk
+* Download the APK file using this Google Drive Link ->[Download APK](https://drive.google.com/file/d/1MnQQzZLS4_hssLAOgGzVf0TQRdf4ZFlK/view)
+* The apk can also be found at https://github.com/rashmi-dev/CheckCardInputExcercise/tree/main/apk
